@@ -1,9 +1,13 @@
-How to Run
-1. Install dependencies:
-
-```pip install -r requirements.txt```
 
 
-2. Run the app
+## 💡 Project Overview
+This project is a basic chatbot built using:
+- ✅ spaCy (NLP)
+- ✅ Streamlit (web UI)
 
-```streamlit run app.py```
+## ▶️ How to Run
+```bash
+pip install -r requirements.txt
+python -m spacy download en_core_web_sm
+streamlit run app.py
+
